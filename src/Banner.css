@@ -1,0 +1,55 @@
+
+.button-container{
+    margin-top: 70px;
+    display:inline-block;
+    position:relative;
+    padding-bottom: 0px;
+}
+    
+#downloadApp{
+    position: absolute;
+    bottom:4em;
+    right:4em;
+    background-color:rgb(157, 166, 93);
+    border-radius:50px;
+    font-family: 'Chakra Petch', sans-serif;
+    color:white;
+    text-decoration: none;
+    font-size: x-large;
+    text-transform:uppercase;
+    padding:10px 30px;
+}
+#startBooking{
+    position: absolute;
+    bottom:4em;
+    right:15em;
+    background-color:rgb(108, 115, 61);
+    border-radius:50px;
+    font-family: 'Chakra Petch', sans-serif;
+    color:white;
+    text-decoration: none;
+    font-size: x-large;
+    text-transform:uppercase;
+    padding:10px 30px;
+}
+.button-container h1{
+    position: absolute;
+    bottom:3em;
+    right:7em;
+    font-family: 'Chakra Petch', sans-serif;
+    color:white;
+    text-decoration: none;
+    font-size: 25mm;
+    text-transform:uppercase;
+    padding:10px 30px;
+}
+.button-container h2{
+    position: absolute;
+    bottom:11.5em;
+    right:27.6em;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    text-decoration: none;
+    font-size: 7mm;
+    padding:10px 30px;
+}
