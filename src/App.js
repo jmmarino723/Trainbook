@@ -8,11 +8,15 @@ import Cabezote from './Cabezote';
 import Results from './Results';
 import Footer from './Footer';
 import Messages from './Messages';
+import Example from './Example';
 function App() {
   return (
     <Router>
       <div className="">
         <Switch>
+          <Route path="/example">
+            <Example/>
+          </Route>
           <Route path='/home'>
             <Header/>
             <Banner/>
